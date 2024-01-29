@@ -1,0 +1,49 @@
+.textbox-home {
+    position: absolute;
+    top: 40%;
+    max-width: 40%;
+    margin-left: 0;
+    margin-right: 20%;  
+    padding: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    
+  
+}
+
+@media (min-width: 769px) and (max-width:1500px){
+    .textbox-home {
+        top: 10%;
+        max-width: 30%;
+    }
+}
+
+
+@media (min-width: 600px) and (max-width:768px){
+    .textbox-home {
+        top: 60%;
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 500px) and (max-width:599px){
+    .textbox-home {
+        top: 50%;
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 400px) and (max-width:499px){
+    .textbox-home {
+        top: 40%;
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 250px) and (max-width:399px){
+    .textbox-home {
+        top: 40%;
+        max-width: 100%;
+    }
+}
+
